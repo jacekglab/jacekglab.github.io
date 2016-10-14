@@ -68,7 +68,7 @@ position: absolute;
 top: 60%;
 left: 50%;
 transform: translate(-50%, -50%);
-font-size: 28px;
+font-size: 35px;
 line-height: 40px;
 font-family: 'Lato', sans-serif;
 color: #ecf0f1;
@@ -98,9 +98,6 @@ overflow:hidden;
   padding-left:110px;
   text-align:left;
   list-style:none;
-  -webkit-animation-name: change;
-  -webkit-animation-duration: 12s;
-  -webkit-animation-iteration-count: 1;
   animation-name: change;
   animation-duration: 12s;
   animation-iteration-count: 1;
@@ -112,6 +109,7 @@ overflow:hidden;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
+
 
 
 @keyframes opacity {
