@@ -50,6 +50,9 @@ html, body {
 }
 
 .col-xs-4 .middle img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin-top: 25vh;
   margin-left: 5vw;
   padding-left: 0;
