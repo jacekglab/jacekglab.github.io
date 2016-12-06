@@ -1,0 +1,188 @@
+body{
+	background-color: white;
+ 	color: black;
+ 	font-size: 12px;
+	font-family: Josefin Sans;
+	font-weight: 100;
+	background-color: #3366ff;
+	background: url(../img/6pf6daiwz48-rayi-christian-wicaksono.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+::-webkit-scrollbar { width: 0; height: 0;}
+.container-fluid{
+
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+}
+#description{
+	font-family: Josefin Sans;
+	font-weight: lighter;
+	background-color: #263238;
+	opacity: 0.9;
+}
+.col-centered{
+	position: fixed;
+    align-self: center;
+	margin-top: 20px;
+	pointer-events:none;
+}
+#logo{
+	width: 64px;
+	height: 64px;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#description{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	height: 100vh;
+	width: 100%;
+}
+#description a{
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	position: absolute;
+	bottom: 20px;
+}
+#description a:hover{
+	text-decoration: none;
+}
+#main{
+	margin: 0;
+	padding: 0;
+}
+.project{
+	height: 400px;
+	background-color: #37474F;
+	transition: background-color 0.5s;
+	padding: 0;
+}
+.project p{
+	font-family: Lato;
+	font-weight: lighter;
+}
+.project:hover{
+	background-color: #ECEFF1;
+}
+#textq, #textw, #texte, #textr, #textt, #texty{
+	position: absolute;
+	background-color: black;
+	color: white;
+	height: 100%;
+	opacity: 0.9;
+	padding: 40px;
+	font-family: Josefin Sans;
+	font-weight: 100;
+}
+#author{
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+.about h2{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	font-family: Josefin Sans;
+	font-weight: 100;
+}
+.about p{
+	padding: 0 40px 0 40px;
+	font-size: 1.5em;
+	font-family: Lato;
+	font-weight: lighter;
+}
+.icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 40px;
+}
+.social-media-icons{
+	display:inline-block;
+	text-align: center;
+	font-size: 2em;
+	width: 50px;
+	height: 50px;
+	border-style: solid;
+	border-width: 2px;
+	padding-top: 6px;
+	transition-timing-function: ease-in-out;
+	transition: border-color 0.3s, 
+	background-color 0.3s;
+	border-radius: 100%;
+}
+.social-media-icons a{
+	color: black;
+}
+.photo{
+	height: 100vh;
+	background-color: #eee;
+	background-image: url("../img/avatar.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#footer{
+	font-family: Lato;
+	font-weight: lighter;
+	font-size: 1.5em;
+	background-color: #263238;
+	padding: 40px;
+	text-align: center;
+	color: white;
+}
+.hidden{
+	display: none;
+}
+#q{
+	background-image: url("../img/1mivce1cdiq-ronaldo-oliveira.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#w{
+	background-image: url("../img/opltujtg624-thomas-rey.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#e{
+	background-image: url("../img/vhomdghsqtw-adrian.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#r{
+	background-image: url("../img/wxyg-2n3r4e-adrian.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#t{
+	background-image: url("../img/x-lhwj4etpw-illia-cherednychenko.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#y{
+	background-image: url("../img/zv7ojh94sba-roya-ann-miller.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
