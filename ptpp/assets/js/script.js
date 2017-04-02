@@ -5,23 +5,12 @@ $( document ).ready(function() {
      $(".menu").css("visibility", "visible");
      $("#nav-menu").css("visibility", "hidden");
      $("#nav-menu-off").css("visibility", "visible");
+     $("body").css("overflow", "hidden")
    });
    $("#nav-menu-off").click(function() {
      $(".menu").css("visibility", "hidden");
      $("#nav-menu").css("visibility", "visible");
      $("#nav-menu-off").css("visibility", "hidden");
+     $("body").css("overflow", "scroll")
    });
 });
-
-
-
-
-/*$(document).ready(function() {
-
-  var $toggleButton = $('#nav-menu');
-
-  // Hamburger button
-  $toggleButton.on('click', function() {
-    $("menu").css("visibility", "visible");
-  });
-});*/
