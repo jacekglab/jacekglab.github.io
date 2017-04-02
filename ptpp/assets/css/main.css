@@ -6,6 +6,7 @@ body{
  	font-family: 'Open Sans';
  	max-width: 992px;
  	margin: auto;
+	overflow: scroll;
 }
 .navbar{
 	background-color: #381e5c;
